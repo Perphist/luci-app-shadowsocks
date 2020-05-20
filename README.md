@@ -5,7 +5,10 @@ OpenWrt LuCI for Shadowsocks-libev
 
 简介
 ---
+fork自 [luci-app-shadowsocks]
+为了解决自己的痛点 服务器地址现在支持域名了
 
+---
 本软件包是 [shadowsocks-libev][openwrt-shadowsocks] 的 LuCI 控制界面,
 方便用户控制和使用「透明代理」「SOCKS5 代理」「端口转发」功能.  
 
@@ -82,10 +85,11 @@ make package/luci-app-shadowsocks/compile V=99
 ```
 
  [release_badge]: https://img.shields.io/github/release/shadowsocks/luci-app-shadowsocks.svg
- [release_url]: https://github.com/shadowsocks/luci-app-shadowsocks/releases/latest
+ [release_url]: https://github.com/Perphist/luci-app-shadowsocks/releases/latest
  [openwrt-shadowsocks]: https://github.com/shadowsocks/openwrt-shadowsocks
  [openwrt-sdk]: https://wiki.openwrt.org/doc/howto/obtain.firmware.sdk
  [ss-rules]: https://github.com/shadowsocks/luci-app-shadowsocks/wiki/Instruction-of-ss-rules
  [Use-UCI-system]: https://github.com/shadowsocks/luci-app-shadowsocks/wiki/Use-UCI-system
  [uci]: https://wiki.openwrt.org/doc/uci
  [LuCI-Access-Control]: https://github.com/shadowsocks/luci-app-shadowsocks/wiki/LuCI-Access-Control
+ [luci-app-shadowsocks]：https://github.com/shadowsocks/luci-app-shadowsocks
