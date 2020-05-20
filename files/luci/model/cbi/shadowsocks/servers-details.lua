@@ -51,7 +51,9 @@ o = s:option(Flag, "no_delay", translate("TCP no-delay"))
 o.rmempty = false
 
 o = s:option(Value, "server", translate("Server Address"))
-o.datatype = "ipaddr"
+-- 改变类型，可以填入域名
+-- o.datatype = "ipaddr"
+o.datatype = "host"
 o.rmempty = false
 
 o = s:option(Value, "server_port", translate("Server Port"))
