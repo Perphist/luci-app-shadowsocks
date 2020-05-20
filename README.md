@@ -84,7 +84,7 @@ make menuconfig
 make package/luci-app-shadowsocks/compile V=99
 ```
 
- [release_badge]: https://img.shields.io/github/release/shadowsocks/luci-app-shadowsocks.svg
+ [release_badge]: https://img.shields.io/github/v/release/perphist/luci-app-shadowsocks
  [release_url]: https://github.com/Perphist/luci-app-shadowsocks/releases/latest
  [openwrt-shadowsocks]: https://github.com/shadowsocks/openwrt-shadowsocks
  [openwrt-sdk]: https://wiki.openwrt.org/doc/howto/obtain.firmware.sdk
